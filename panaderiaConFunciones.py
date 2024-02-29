@@ -61,7 +61,7 @@ if(len(promocionProductos) == 0):
     cantidad = int(input(f"Usuario cuantos {producto} desea: "))
     valorAPagar = cantidad * productoValor
     print(f"\nUsuario su producto {nombreProducto} tiene un valor de ${productoValor} la cantidad solicitada es de {cantidad} que da un total a pagar de ${valorAPagar} ")
-    dinero = int(input("ingrese la cantidad de dinero disponible: "))
+    dinero = int(input("\ningrese la cantidad de dinero disponible: "))
     if(dinero >= valorAPagar):
         vueltos = dinero - valorAPagar
         print(f"\nUsuario sus vueltos son {vueltos}\n, gracias por su compra")
